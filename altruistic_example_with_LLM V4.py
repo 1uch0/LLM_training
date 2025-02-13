@@ -6,7 +6,7 @@ import google.generativeai as genai
 import time
 
 # API key and LLM setup
-GOOGLE_API_KEY = 'AIzaSyA2H75MOyP5EcDRSeaPFj8u1XBUrTkpdDI'
+GOOGLE_API_KEY = google_api_key
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-1.5-flash-002')
 
